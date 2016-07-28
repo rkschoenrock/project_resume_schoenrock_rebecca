@@ -40,7 +40,6 @@
     "no-missing-eof-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
-    "length-zero-no-unit": true,
     "rule-non-nested-empty-line-before": "always",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",

@@ -2,11 +2,63 @@ body {
 	font-family: Lora;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	text-align: center;
+}
+
+h4 {
+	margin: 0px;
+}
+
+p {
+	width: 90%;
+	margin: auto;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+}
+
+article {
+	border-top: 1px solid black;
+	padding: 20px 0px 40px 0px;
 }
 
 img {
 	width: 100%;
 	height: auto;
+	padding: 10px 0px 20px 0px;
+}
+
+ul {
+	margin: 0px;
+}
+
+ul li {
+	list-style: none;
+	padding-top: 10px;
+	width: 90%;
+}
+
+.experience ul {
+	margin-bottom: 10px;
+}
+
+.contact p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.bkgd1 {
+	background-color: #dbedef;
+}
+
+.bkgd2 {
+	background-color: #e9ecd9;
 }
