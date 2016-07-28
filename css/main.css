@@ -62,3 +62,86 @@ ul li {
 .bkgd2 {
 	background-color: #e9ecd9;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+	.container {
+		width: 60%;
+		margin: auto;
+	}
+	article {
+		border: none;
+		margin: 60px;
+	}
+	.bkgd1 {
+		outline: 2px solid #dbedef;
+		outline-offset: 15px;
+	}
+
+	.bkgd2 {
+		outline: 2px solid #e9ecd9;
+		outline-offset: 15px;
+	}
+	img {
+		width: calc(40% - 20px);
+		max-width: 200px;
+		padding: 0px 20px;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 80%;
+		margin: auto;
+	}
+	h2 {
+		margin-bottom: 60px;
+	}
+	article {
+		border: none;
+		margin: 40px;
+	}
+	.bkgd1 {
+		outline: 2px solid #dbedef;
+		outline-offset: 10px;
+	}
+
+	.bkgd2 {
+		outline: 2px solid #e9ecd9;
+		outline-offset: 10px;
+	}
+	.summary {
+		width: 60%;
+		margin: auto;
+	}
+	.experience {
+		margin-bottom: 0px;
+	}
+	.education {
+		display: inline-block;
+		width: calc(50% - 80px);
+		float: left;
+	}
+	.skills {
+		display: inline-block;
+		width: calc(50% - 80px);
+		float: right;
+	}
+	.testimonials {
+		clear: both;
+	}
+	.contact {
+		width: 30%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	img {
+		width: 80%;
+		height: auto;
+		margin: auto;
+		display: block;
+	}
+	ul li {
+		width: 95%;
+	}
+}
