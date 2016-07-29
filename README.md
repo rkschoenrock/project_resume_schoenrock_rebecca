@@ -1,4 +1,4 @@
-# HW JQUERY
+# PROJECT RESUME
 
 ## Link
 
