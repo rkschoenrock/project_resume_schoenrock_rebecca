@@ -13,4 +13,5 @@
 
 ## Comments
 
-I have no comments.
+- One jQuery code I used was to hide my contact information. When you hover over the Contact artcile, the text disappears and is replaced with an email link.
+- The other jQuery code I used was when you hover over my image, the title adds another line and says "Web Designer".
